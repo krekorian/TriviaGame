@@ -1,0 +1,45 @@
+body {
+    background-image: url("../images/background1.jpg");
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+.main-content-frame {
+    background-color: yellow;
+    width: 100%;
+    max-width: 1400px;
+    height: 100vh;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.main-banner {
+    font-family: 'Dokdo', cursive;
+    font-size: 40pt;
+    text-align: center;
+    color: blue;
+    padding-top: 50px;
+}
+
+.start-button {
+    padding: 20px 40px;
+    margin-left: 0 auto;
+    display: flex;
+    align-self: center;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+.submit-button {
+    padding: 20px 40px;
+    margin-left: 0 auto;
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+}
+
+h2 {
+    text-align: center;
+}
