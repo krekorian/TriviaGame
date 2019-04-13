@@ -9,7 +9,7 @@ body {
     width: 100%;
     max-width: 1400px;
     height: 100vh;
-    margin: 0 auto;
+    margin: auto;
     align-content: center;
 }
 
@@ -32,14 +32,27 @@ body {
 }
 
 .submit-button {
-    padding: 20px 40px;
+    padding: 20px 40px 0px 40px;
     margin-left: 0 auto;
+    margin-bottom: 120px;
     display: flex;
     position: absolute;
-    top: 80%;
     left: 45%;
 }
 
 h2 {
     text-align: center;
+}
+
+.listQuestions {
+    text-align: center;
+}
+
+.answer-display {
+    text-align: center;
+    font-size: 14pt;
+}
+
+input[type="radio"] {
+    margin: 0 10px 0 10px;
 }
