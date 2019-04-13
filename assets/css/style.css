@@ -2,6 +2,7 @@ body {
     background-image: url("../images/background1.jpg");
     background-size: 100%;
     margin: 0 auto;
+    /* position: relative; */
 }
 
 .main-content-frame {
@@ -9,8 +10,19 @@ body {
     width: 100%;
     max-width: 1400px;
     height: 100vh;
-    margin: auto;
+    margin: 0 auto;
     align-content: center;
+    position: relative;
+}
+
+.main-content-frame1 {
+    background-color: yellow;
+    width: 100%;
+    max-width: 1400px;
+    height: 120vh;
+    margin: 0 auto;
+    align-content: center;
+    position: relative;
 }
 
 .main-banner {
@@ -32,12 +44,15 @@ body {
 }
 
 .submit-button {
-    padding: 20px 40px 0px 40px;
-    margin-left: 0 auto;
+    padding: 20px 40px 20px 40px;
+    /* margin-left: 0 auto; */
     margin-bottom: 120px;
+    margin-top: 50px;
     display: flex;
     position: absolute;
+    /* float: left; */
     left: 45%;
+    float: auto;
 }
 
 h2 {
