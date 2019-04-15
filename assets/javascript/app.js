@@ -1,6 +1,6 @@
 $(document).ready(function () {
     //Initial vales
-    var timeLeft = 10;
+    var timeLeft = 60;
     var timer;
     var arrayElement;
     var correctAnswer = 0;
@@ -40,8 +40,8 @@ $(document).ready(function () {
         $('#timing-frame').hide();
         $('#result-page').empty();
         $('#main-frame').removeClass("main-content-frame1");
-        $('#result-page').append('<h2> Corrent: ' + correctAnswer + '</h2>');
-        $('#result-page').append('<h2> Incorrent: ' + incorrectAnswer + '</h2>');
+        $('#result-page').append('<h2> Correct: ' + correctAnswer + '</h2>');
+        $('#result-page').append('<h2> Incorrect: ' + incorrectAnswer + '</h2>');
         $('#result-page').append('<h2> Unanswered: ' + noAnswer + '</h2>');
     };
 
